@@ -1,0 +1,368 @@
+@media screen and (min-width: 700px){
+
+  html {
+
+   /* overflow:hidden; */
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+  }
+
+  body {
+   /* overflow: auto; */
+   margin: 0;
+   height: 100%;
+   width: 100%;
+   padding: 0;
+   overflow: auto;
+
+   z-index: -1;
+
+  }
+
+  #click_text {
+
+    text-align: center;
+
+    vertical-align: middle;
+    font-size: 120%;
+    margin-top: 3%;
+}
+
+#click_box {
+
+    padding-top: 10%;
+    position:relative;
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+    z-index: 2;
+}
+
+#click_page {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background:black;
+
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin:0;
+    margin-bottom: 0;
+}
+
+img #FLESH {
+  opacity: 0;
+  }
+
+
+
+  #c {
+     z-index: -9999;
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+  }
+
+  div {
+   position: relative;
+   overflow-y: scroll;
+   padding-top: 5%;
+   }
+
+   #INTRO {
+
+   }
+
+   img {
+     display: block;
+     max-width: 40%;
+     margin: auto;
+     margin-bottom: 5%;
+
+   }
+
+   mark {
+   background-color: #3de300;
+   color: black;
+  }
+
+
+  p {
+     font-size: 90%;
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+     /* background-color: rgba(0, 0, 0, 0.3);
+     background-size: 20% 20%; */
+     text-align: center;
+     padding: 1%;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 40%;
+     overflow-y: scroll;
+     line-height: 1.8;
+  }
+
+  #intro {
+   margin-top: 10%;
+  }
+
+  a {
+    color: red;
+    padding: none;
+  }
+
+  #REMOTE {
+    color: #66ff33;
+  }
+
+  #daytime_title{
+
+   color: black;
+   background-color: white;
+   margin-top: 15%;
+
+  }
+
+
+
+
+  #event_header{
+
+   color: #3de300;
+   background-color: black;
+   margin-bottom: 2%;
+   margin-top: 2%;
+  }
+
+  #event_header_night{
+
+   color: #3de300;
+   background-color: black;
+   margin-bottom: 2%;
+   margin-top: 2%;
+
+
+  }
+
+  ul {
+     font-family: 'Roboto Mono', monospace;
+     color: white;
+     text-align: left;
+     padding: 5%;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 35%;
+  }
+
+  li {
+
+     padding: 1%;
+  }
+
+  }
+
+  @media only screen and (max-width: 699px){
+
+  html {
+
+ /* overflow:hidden; */
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+
+
+
+}
+
+body {
+ /* overflow: auto; */
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ padding: 0;
+ overflow: auto;
+
+}
+
+img #FLESH {
+  opacity: 1;
+  }
+
+#click_text {
+
+  text-align: center;
+
+  vertical-align: middle;
+  font-size: 120%;
+  margin-top: 12%;
+}
+
+#click_box {
+
+  padding-top: 10%;
+  position:relative;
+  max-width: 100%;
+  max-height: 100%;
+  margin:auto;
+  z-index: 2;
+}
+
+#click_page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background:black;
+
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin:0;
+  margin-bottom: 0;
+}
+
+
+
+
+#c {
+
+/*   width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0; */
+
+   z-index: -9999;
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+   /* overflow-y: scroll; */
+
+}
+
+div {
+ position: relative;
+ overflow-y: scroll;
+ padding-top: 5%;
+
+ }
+
+ #INTRO {
+
+ }
+
+ img {
+   display: block;
+   max-width: 100%;
+   margin: auto;
+   margin-bottom: 15%;
+ }
+
+ mark {
+ background-color: #3de300;
+ color: black;
+}
+
+
+p {
+   font-size: 90%;
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+   /* background-color: rgba(0, 0, 0, 0.3);
+   background-size: 20% 20%; */
+   text-align: center;
+   padding: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 80%;
+   overflow-y: scroll;
+   line-height: 1.8;
+}
+
+#intro {
+ margin-top: 20%;
+}
+
+a {
+  color: red;
+  padding: none;
+}
+
+#REMOTE {
+  color: #66ff33;
+}
+
+#daytime_title{
+
+ color: black;
+ background-color: white;
+ margin-top: 15%;
+
+}
+
+#nightime_title{
+
+ /* color: white;
+ background-color: black;
+ margin-top: 30%; */
+
+}
+
+
+
+
+#event_header{
+
+ color: #3de300;
+ background-color: black;
+ margin-bottom: 10%;
+
+}
+
+#event_header_night{
+
+ color: #3de300;
+ background-color: black;
+ margin-bottom: 10%;
+
+
+}
+
+ul {
+   font-family: 'Roboto Mono', monospace;
+   color: white;
+   text-align: left;
+   padding: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 35%;
+}
+
+li {
+
+   padding: 1%;
+}
+
+}
