@@ -37,7 +37,7 @@
     max-width: 100%;
     max-height: 100%;
     margin:auto;
-    z-index: 2;
+    z-index: 3;
 }
 
 #click_page {
@@ -48,7 +48,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
     background:black;
 
     display: block;
@@ -58,9 +58,17 @@
     margin-bottom: 0;
 }
 
-img #FLESH {
-  opacity: 0;
+.FLESH {
+  max-width: 0%;
   }
+
+  .MAIN {
+
+
+      margin-bottom: 0;
+
+
+    }
 
 
 
@@ -197,9 +205,31 @@ body {
 
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 15%;
+}
+
 img #FLESH {
-  opacity: 1;
+  max-width: 100%;
   }
+
+.MAIN {
+
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 15%;
+    position: absolute;
+    margin: auto;
+		left: 0px;
+		top: 0px;
+		z-index: 1;
+  }
+
+
 
 #click_text {
 
@@ -217,7 +247,7 @@ img #FLESH {
   max-width: 100%;
   max-height: 100%;
   margin:auto;
-  z-index: 2;
+  z-index: 3;
 }
 
 #click_page {
@@ -228,7 +258,7 @@ img #FLESH {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   background:black;
 
   display: block;
@@ -273,12 +303,7 @@ div {
 
  }
 
- img {
-   display: block;
-   max-width: 100%;
-   margin: auto;
-   margin-bottom: 15%;
- }
+
 
  mark {
  background-color: #3de300;
