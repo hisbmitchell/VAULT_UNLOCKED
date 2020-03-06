@@ -31,11 +31,11 @@ div {
 }
 
 p {
-  font-size: 50%;
+  font-size: 100%;
   color: #3cff00;
   margin:auto;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 0;
 
 }
 
